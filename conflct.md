@@ -11,6 +11,15 @@ Git pull: Là sự kết hợp giữa git fetch và git merge. Dùng để hợp
 Nếu không thì mới có thể pull về, nếu không sẽ yêu cầu bạn commit rồi mới có thể thêm. 
 
 ## 2. Conflict xảy ra khi nào 
-Conflict xảy ra khi bạn thay đổi code ở cả remote và local, dẫn đến Github không biết lựa chọn nhánh nào khi thực 
-hiện git pull (có sự merge nhánh) 
+Trong trường hợp hai nhánh đã đủ điện kiện merge. Conflict sẽ có thể xảy ra khi bạn thay đổi code ở cả remote và local
 
+**Ví dụ 1:** \
+1. Bạn thực hiện chỉnh sửa ở cả `local` và `remote` 
+2. Bạn `git pull` dữ liệu về máy. Nhưng máy sẽ yêu cầu bạn phải commit trước để không bị mất code (Cái số 2)
+3. Bạn `commit` code 
+4. Bạn thực hiện `git pull`. Lúc này hai nhánh đã đủ điện kiện gộp. Github sẽ tiến hành gộp và phát hiện conflict. 
+Vì bạn đã thực hiện chỉnh sửa ở `local` và `remote` nên lúc này conflict sẽ xảy ra. Bạn phải tiến hành xử lí conflict thì mới 
+thực hiện các tác vụ bình thường được. 
+
+**Ví dụ 2:**
+1. Bạn thực hiện chỉnh 
