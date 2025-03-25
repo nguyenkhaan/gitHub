@@ -22,4 +22,8 @@ Vì bạn đã thực hiện chỉnh sửa ở `local` và `remote` nên lúc n�
 thực hiện các tác vụ bình thường được. 
 
 **Ví dụ 2:**
-1. Bạn thực hiện chỉnh 
+1. Bạn thực hiện chỉnh sửa ở cả `local` và `remote` 
+2. Bạn `git push` dữ liệu lên remote. Nhưng máy phát hiện remote cũng đã thay đổi ppp
+3. Bạn `pull` code 
+4. Bạn thực hiện `git pull`. Github sẽ tiến hành gộp và phát hiện conflict. Vì bạn đã thực hiện chỉnh sửa ở `local` và `remote` nên lúc này conflict sẽ xảy ra. Bạn phải tiến hành xử lí conflict thì mới 
+thực hiện các tác vụ bình thường được. 
