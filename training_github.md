@@ -1,5 +1,5 @@
-# CƠ BẢN VỀ GIT 
-## 0. Cơ chế của Git 
+# 😍CƠ BẢN VỀ GIT😍
+## ❓0. Cơ chế của Git 
 ![Hinh_anh](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4IkgIwsGWN52UBrCWimoeCqeQ4fo2F91_mg&s)
 
 ```md
