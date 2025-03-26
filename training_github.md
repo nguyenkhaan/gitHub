@@ -27,12 +27,12 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 💻 **clone / pull**: Thao tác kéo code về máy 
 
 
-## 1. Làm đầu tiên trong ngày 
+## 💟1. Làm đầu tiên trong ngày 
 ```md
 **Thao tác folk**: Mỗi company có 1 cái github riêng (chủ). Mình sẽ tiến hành đưa cái github riêng của công ty đó về github của mình và chỉnh sửa ngay trên github của mình. Rồi mới đua code lên lại github của công ty. 
 ```
 `git clone <url>`: Lấy code từ github về máy *(chỉ làm duy nhất một lần trong ngày)* 
-## 2. Chẻ nhánh 
+## 💔2. Chẻ nhánh 
 1. Chia nhỏ công việc 
 2. Tránh rủi ro  
 
@@ -42,15 +42,15 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 
 📝 `git branch <ten_nhanh>`: Tạo một nhánh mới 
 
-**Lệnh gộp:** Sử dụng `git checkout -b <ten_nhanh>` để tạo 1 nhánh mới và chuyển sang nhánh đó luôn 
+🔖**Lệnh gộp:** Sử dụng `git checkout -b <ten_nhanh>` để tạo 1 nhánh mới và chuyển sang nhánh đó luôn 
 
 >Tự tìm hiểu muốn xóa 1 nhánh thì làm như thế nào xem?
-## 3. Đưa code lên github 
+## 3. 😙Đưa code lên github 
 - 📝 `git init`: Khởi tạo kho lưu trữ trên local 
 - 📝 `git add .`: Thêm dữ liệu vào kho lưu trữ 
 - 📝 `git commit -m "Complted_Task26"`: Commit để tránh mất code 
 - 📝 `git push <url> <ten_nhanh>`: Đưa code lên nhánh 
-## 4. Cập nhật code mới nhất về máy 
+## 4. 😠Cập nhật code mới nhất về máy (Làm sai dễ bị chửi) 
 - 📝 `git pull <url> <ten_nhanh>`: Lấy code mới nhất từ **nhánh** về máy 
 ## 5. Một số lệnh kiểm tra 
 - 📝 `git remote -v`: Xem đường link hiện có. 
