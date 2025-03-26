@@ -16,10 +16,14 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 
 >Nói chung, chỉ cần nhớ tên tiếng anh vài cái sau cho dễ 
 
-**branch**: Nhánh \ 
-**local**: Máy của mình \
-**remote**: Cái kho online \ 
-**push**: Thao tác đẩy code lên online  \ 
+**branch**: Nhánh 
+
+**local**: Máy của mình 
+
+**remote**: Cái kho online 
+
+**push**: Thao tác đẩy code lên online  
+
 **clone / pull**: Thao tác kéo code về máy 
 
 
