@@ -1,5 +1,5 @@
 # 😍CƠ BẢN VỀ GIT😍
-## ❓0. Cơ chế của Git 
+## ☠️0. Cơ chế của Git 
 ![Hinh_anh](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4IkgIwsGWN52UBrCWimoeCqeQ4fo2F91_mg&s)
 
 ```md
@@ -27,7 +27,7 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 💻 **clone / pull**: Thao tác kéo code về máy 
 
 
-## 💟1. Làm đầu tiên trong ngày 
+## 💟1. Làm đầu tiên trong ngày (!!!)
 ```md
 **Thao tác folk**: Mỗi company có 1 cái github riêng (chủ). Mình sẽ tiến hành đưa cái github riêng của công ty đó về github của mình và chỉnh sửa ngay trên github của mình. Rồi mới đua code lên lại github của công ty. 
 ```
@@ -44,7 +44,7 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 
 🔖**Lệnh gộp:** Sử dụng `git checkout -b <ten_nhanh>` để tạo 1 nhánh mới và chuyển sang nhánh đó luôn 
 
->Tự tìm hiểu muốn xóa 1 nhánh thì làm như thế nào xem?
+>❓ Tự tìm hiểu muốn xóa 1 nhánh thì làm như thế nào xem?
 ## 3. 😙Đưa code lên github 
 - 📝 `git init`: Khởi tạo kho lưu trữ trên local 
 - 📝 `git add .`: Thêm dữ liệu vào kho lưu trữ 
@@ -59,4 +59,4 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 - 📝 `git status`: Xem co bao nhieu file thay doi 
 - 📝 `git log --oneline`: Xem lịch sử gõ lệnh git. Để thoát thì gõ :q 
 
->Có 1 lệnh ngắn gọn hơn **git log --oneline** nữa, thử tìm cái lệnh này xem? 
+>❓ Có 1 lệnh ngắn gọn hơn **git log --oneline** nữa, thử tìm cái lệnh này xem? 
