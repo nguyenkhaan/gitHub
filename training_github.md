@@ -16,15 +16,15 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 
 >Nói chung, chỉ cần nhớ tên tiếng anh vài cái sau cho dễ 
 
-**branch**: Nhánh 
+💻 **branch**: Nhánh 
 
-**local**: Máy của mình 
+💻 **local**: Máy của mình 
 
-**remote**: Cái kho online 
+💻 **remote**: Cái kho online 
 
-**push**: Thao tác đẩy code lên online  
+💻 **push**: Thao tác đẩy code lên online  
 
-**clone / pull**: Thao tác kéo code về máy 
+💻 **clone / pull**: Thao tác kéo code về máy 
 
 
 ## 1. Làm đầu tiên trong ngày 
@@ -36,27 +36,27 @@ Ta có thể sử dụng các lệnh của Github để đẩy code từ
 1. Chia nhỏ công việc 
 2. Tránh rủi ro  
 
-`git branch:`: Hiển thị tất cả tên nhánh hiện có
+📝 `git branch:`: Hiển thị tất cả tên nhánh hiện có
 
-`git checkout <ten_nhanh>`: Chuyển sang nhánh khác 
+📝 `git checkout <ten_nhanh>`: Chuyển sang nhánh khác 
 
-`git branch <ten_nhanh>`: Tạo một nhánh mới 
+📝 `git branch <ten_nhanh>`: Tạo một nhánh mới 
 
 **Lệnh gộp:** Sử dụng `git checkout -b <ten_nhanh>` để tạo 1 nhánh mới và chuyển sang nhánh đó luôn 
 
 >Tự tìm hiểu muốn xóa 1 nhánh thì làm như thế nào xem?
 ## 3. Đưa code lên github 
-- `git init`: Khởi tạo kho lưu trữ trên local 
-- `git add .`: Thêm dữ liệu vào kho lưu trữ 
-- `git commit -m "Complted_Task26"`: Commit để tránh mất code 
-- `git push <url> <ten_nhanh>`: Đưa code lên nhánh 
+- 📝 `git init`: Khởi tạo kho lưu trữ trên local 
+- 📝 `git add .`: Thêm dữ liệu vào kho lưu trữ 
+- 📝 `git commit -m "Complted_Task26"`: Commit để tránh mất code 
+- 📝 `git push <url> <ten_nhanh>`: Đưa code lên nhánh 
 ## 4. Cập nhật code mới nhất về máy 
-- `git pull <url> <ten_nhanh>`: Lấy code mới nhất từ **nhánh** về máy 
+- 📝 `git pull <url> <ten_nhanh>`: Lấy code mới nhất từ **nhánh** về máy 
 ## 5. Một số lệnh kiểm tra 
-- `git remote -v`: Xem đường link hiện có. 
-- `git remote add <name> <url>`: Thêm một đường link 
-- `git remote remove <name>`: Xóa đường link 
-- `git status`: Xem co bao nhieu file thay doi 
-- `git log --oneline`: Xem lịch sử gõ lệnh git. Để thoát thì gõ :q 
+- 📝 `git remote -v`: Xem đường link hiện có. 
+- 📝 `git remote add <name> <url>`: Thêm một đường link 
+- 📝 `git remote remove <name>`: Xóa đường link 
+- 📝 `git status`: Xem co bao nhieu file thay doi 
+- 📝 `git log --oneline`: Xem lịch sử gõ lệnh git. Để thoát thì gõ :q 
 
 >Có 1 lệnh ngắn gọn hơn **git log --oneline** nữa, thử tìm cái lệnh này xem? 
